@@ -272,8 +272,8 @@ void moveSnake(char* direction, char* prev_direction, position* snake_pos, char 
 }
 int end_game(void* rvalue, void**rvalues_enemies, void* rvalue_chest)
 {
-  mvwprintw(game_window, (MAP_LENGTH/2) ,16, "    GAME OVER    ");
-  mvwprintw(game_window, (MAP_LENGTH/2 + 1) ,16, " %08d POINTS ",points);
+  mvwprintw(game_window, (MAP_LENGTH/2) ,(MAP_WIDTH/2)-9, "    GAME OVER    ");
+  mvwprintw(game_window, (MAP_LENGTH/2 + 1) ,(MAP_WIDTH/2)-9, " %08d POINTS ",points);
   wrefresh(game_window);
   usleep(5000000);
   wborder(game_window, ' ', ' ', ' ',' ',' ',' ',' ',' ');

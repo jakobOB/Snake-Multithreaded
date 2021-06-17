@@ -9,23 +9,22 @@
 #include "string.h"
 #include <time.h>
 
-#define MAP_WIDTH 50
-#define MAP_LENGTH 50
+#define MAP_WIDTH 30    // Change Height of Game map
+#define MAP_LENGTH 30   // Change Width of Game map
+
+// DON'T CHANGE THIS VARIABLES!!
 #define EMPTY 1
 #define USER_SNAKE 2
 #define CHEST_A 3
 #define ENEMY_SNAKE 6
-
 #define GRASS 51
 #define SNAKE_COLOR_USER 52
 #define SNAKE_COLOR_ENEMY_1 53
 #define CHEST_A_COLOR 54
+//-----------------------------------
 
 #define POINTS_CHEST_A 2000
-#define NUMBER_ENEMIES 10
-
-#ifndef SNP_TUTOR_TEST_1_H
-#define SNP_TUTOR_TEST_1_H
+#define NUMBER_ENEMIES 10   // Change number of Enemies
 
 typedef struct
 {
