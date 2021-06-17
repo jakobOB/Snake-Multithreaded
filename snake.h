@@ -79,5 +79,3 @@ char getRandPosX();
 
 char getRandPosY();
 
-
-#endif
